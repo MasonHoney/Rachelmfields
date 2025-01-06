@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    border: 5px solid black;
+}
+.nav-header {
+    flex-direction: row;
+    
+}
+.nav-header > ul {
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+#rachel-logo {
+    height: 200px;
+    
+    margin: auto;
+    border: solid;
+    }
