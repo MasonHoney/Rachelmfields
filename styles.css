@@ -2,26 +2,43 @@
     margin: 0;
     padding: 0;
 }
-header {
-    display: flex;
-    border: 5px solid black;
+#rachel-logo {
+    width: 200px;
 }
 .nav-header {
-    flex-direction: row;
+    display: flex;
     
-}
-.nav-header > ul {
+    border: solid;
+    position: relative;
+    justify-content: center;
     align-items: center;
 }
-a {
-    text-decoration: none;
-    text-align: center;
-    padding: 20px;
-}
-
-#rachel-logo {
-    height: 200px;
+#nav-menu {
+    position: absolute;
+    left: 0;
     
-    margin: auto;
     border: solid;
-    }
+    
+}
+#nav-menu ul {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    list-style: none;
+    
+}
+#nav-menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+#nav-menu a:hover {
+    text-decoration: underline;
+}
+#logo-container {
+
+    margin: 0 auto;
+    border: solid;
+    padding-top: 5px;
+}
