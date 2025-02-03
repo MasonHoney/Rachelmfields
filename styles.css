@@ -123,3 +123,8 @@ li a {
 #nav-menu-footer a:hover {
     text-decoration: underline;
 }
+.articles {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+}
